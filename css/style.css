@@ -1,0 +1,166 @@
+@import url('null.css');
+
+
+@font-face {
+   font-family:'Graphik LCG','sans-serif';
+   src: url('../fonts/GraphikLCG-Regular.woff2') format('woff2'), url('../fonts/GraphikLCG-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family:'Graphik LCG','sans-serif';
+   src: url('../fonts/GraphikLCG-Bold.woff2') format('woff2'), url('../fonts/GraphikLCG-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+}
+
+[class*="-container"]
+{
+   max-width: 1200px;
+   margin: 0 auto;
+   
+}
+
+body{
+   font-family: 'Graphik LCG';
+   font-size: 18px;
+   line-height: 1.4;
+   font-weight: 400;
+   font-style: normal;
+   color: #131212;
+}
+
+.logo{
+   max-width: 100%;
+   margin: 0 auto 40px;
+
+}
+h1{
+   font-size: 46px;
+   font-weight: 900;
+   text-align: center;
+   margin: 10px 0 20px 0;
+}
+
+.paragraf-1{
+   margin: 0 0 20px 0;
+}
+
+.title-list{
+   font-weight: 900;
+   margin: 0 0 10px 0;
+}
+
+.list{
+color: rgb(0, 89, 255);
+margin: 0 0 30px 0;
+}
+
+.title-paragraf-2{
+   font-size: 32px;
+   line-height: 1;
+   font-weight: 900;
+   margin: 0 0 20px 0;
+}
+
+.paragraf-2-text{
+   font-size: 24px;
+   font-weight: 900;
+   margin: 0 0 20px 0;
+}
+
+.img-paragraf-2{
+   max-width: 100%;
+   margin: 0 auto 40px;
+}
+
+.span-bolt{
+font-weight: 900;
+
+}
+
+
+
+.link-book{
+   color: rgb(0, 89, 255);
+}
+
+.coment{
+   max-height: 150px;
+   overflow: auto;
+   background-color: #e2e8f0;
+   margin: 20px 0 0 0;
+}
+
+.istocknik{
+   font-weight: 900;
+   text-align: right;
+}
+
+.block-3{
+   margin: 70px 0 0 0 ;
+}
+
+.block-4{
+   margin: 70px 0 0 0 ;
+
+}
+
+.block-5{
+   margin: 70px 0 0 0 ;
+
+}
+
+.title-list-4{
+   text-decoration: underline;
+}
+
+.block-6{
+   margin: 70px 0 0 0;
+
+}
+
+.block-7{
+   margin: 70px 0 0 0;
+   background-color: #fefbb6;
+
+}
+
+.text-block-7{
+   max-width: 550px;
+   margin: 0 0 0 auto;
+   background-color: #cbe996b9;
+}
+
+.title-paragraf-7{
+   margin: 30px 0 20px 0;
+   font-size: 32px;
+   line-height: 1;
+   font-weight: 900;
+   
+}
+.img-paragraf-7{
+   max-width: 50%;
+   display: inline-block;
+   max-height: 700px;
+   margin-bottom: 200px;
+}
+
+.footer{
+   font-size: 20px;
+   font-weight: 900;
+   margin: 20px 0 0 0;
+}
+
+.footer span{
+   font-size: 30px;
+   color: #517c07;
+}
